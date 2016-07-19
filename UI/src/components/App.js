@@ -10,9 +10,10 @@ import {
 const App = ({
   instructions,
 }) => (
-  <View style={styles.container}>
+  /* <div w3-include-html="content.html"></div> */
+   <View style={styles.container}>
     <Text style={styles.welcome}>
-      Welcome to React Native!
+      Welcome to React Native, Yuri Dor! 
     </Text>
     <Text style={styles.instructions}>
       To get started, edit index.{Platform.OS}.js
@@ -20,7 +21,7 @@ const App = ({
     <Text style={styles.instructions}>
       {instructions}
     </Text>
-  </View>
+  </View> 
 )
 
 App.propTypes = {
